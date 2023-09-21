@@ -481,7 +481,7 @@
 	  nextFrame: function nextFrame() {
 	    this.__clearCanvas();
 	    this.__draw();
-
+	    console.log('Hello Alex!');
 	    /* update next frame time */
 	    while (Date.now() - this.__startTime >= this.__nextFrameTime) {
 
